@@ -39,3 +39,25 @@ class Main extends React.Component {
    }
 }
 
+const offset = 24; 
+const styles = StyleSheet.create({
+    title: {
+        marinTop: offset,
+        marginLeft: offset,
+        fontSize: offset,
+    },
+    nameInput: {
+        height: offset * 2,
+
+        margin: offset,
+        paddingHorizontal: offset,
+        borderColor: '#111111',
+        borderWidth: 1,
+    },
+    buttonText: {
+        marginLeft: offset,
+        fontSize: offset,
+    },
+});
+
+export default Main;
